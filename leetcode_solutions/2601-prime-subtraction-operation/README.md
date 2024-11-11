@@ -4,7 +4,7 @@
 <p>You can perform the following operation as many times as you want:</p>
 
 <ul>
-    <li>Pick an index <code>i</code> that you haven’t picked before, and pick a prime <code>p</code> strictly less than <code>nums[i]</code>, then subtract <code>p</code> from <code>nums[i]</code>.</li>
+    <li>Pick an index <code>i</code> that you havenot picked before, and pick a prime <code>p</code> strictly less than <code>nums[i]</code>, then subtract <code>p</code> from <code>nums[i]</code>.</li>
 </ul>
 
 <p>Return <code>true</code> if you can make <code>nums</code> a strictly increasing array using the above operation and <code>false</code> otherwise.</p>
