@@ -1,5 +1,3 @@
-Here is the required format for the problem description:
-
 <h2><a href="https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice/">2981. Find Longest Special Substring That Occurs Thrice</a></h2>  
 <h3>Medium</h3>  
 <hr>  
