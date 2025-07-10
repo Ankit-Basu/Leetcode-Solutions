@@ -1,7 +1,3 @@
-Here is the README-style documentation for **3440. Reschedule Meetings for Maximum Free Time II** in the same format:
-
----
-
 ### <h2><a href="https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/">3440. Reschedule Meetings for Maximum Free Time II</a></h2>
 
 <h3>Medium</h3>  
