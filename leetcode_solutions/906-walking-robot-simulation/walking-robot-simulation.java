@@ -27,7 +27,6 @@ class Solution {
                     int nx = x + directions[dir][0];
                     int ny = y + directions[dir][1];
 
-                    // check obstacle
                     if (blocked.contains(nx + "," + ny)) break;
 
                     x = nx;
