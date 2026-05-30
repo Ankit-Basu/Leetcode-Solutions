@@ -15,8 +15,11 @@ class Solution {
                 stack.push(Integer.parseInt(op));
             }
         }
-            int total = 0;
-            for(int score:stack) total+= score;
-            return total;
+        int sum = 0;
+        while(!stack.isEmpty()){
+            sum += stack.pop();
+        }
+
+        return sum;
     }
 }
