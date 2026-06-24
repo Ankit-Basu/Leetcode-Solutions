@@ -4,13 +4,14 @@ class Solution {
             return n;
         }
 
-        int[] map = new int[n+1];
-        map[0]=0;
-        map[1]=1;
+        int prev2=0;
+        int prev1=1;
 
-        for(int i =2; i<=n;i++){
-            map[i]=map[i-2]+map[i-1];
+        for(int i=2;i<=n;i++){
+            int curr = prev1+prev2;
+            prev2 = prev1;
+            prev1= curr;
         }
-        return map[n];
+        return prev1;
     }
 }
